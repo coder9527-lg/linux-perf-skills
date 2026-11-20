@@ -1,0 +1,6 @@
+FROM tomcat:8
+
+
+RUN apt-get update && apt-get install -y procps && apt-get clean
+
+COPY index.jsp /usr/local/tomcat/webapps/ROOT/index.jsp

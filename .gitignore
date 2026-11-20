@@ -1,0 +1,9 @@
+# 案例本地构建产物
+**/app
+*.pyc
+__pycache__/
+perf.data
+perf.data.old
+# 系统/编辑器
+.DS_Store
+*.swp
